@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Simple Notes App v2</h1>
+      <h1>Simple Notes App v3</h1>
       <NoteForm addNote={addNote} />
       <div className="notes-list">
         {notes.map((note) => (
